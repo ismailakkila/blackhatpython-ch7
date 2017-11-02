@@ -1,5 +1,5 @@
 import os
 
 def run(**args):
-    print("[*] In dirlister module")
-    return str(os.listdir("."))
+    command_output = "[*] In dirlister module:\n\n"
+    return command_output + str(os.listdir(".")) + "\n\n"
